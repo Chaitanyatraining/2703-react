@@ -1,0 +1,4 @@
+what is render
+types of components
+jsx, virtual DOM
+difference between a library and framework

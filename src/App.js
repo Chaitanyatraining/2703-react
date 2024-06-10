@@ -1,25 +1,28 @@
-import logo from './logo.svg';
-import './App.css';
+import Header from "./Components/Header"
+import ClassComp from "./Components/ClassComp"
+import './App.css'
+import CounterComp from "./Components/CounterComp"
+import Stylings from "./Components/Stylings/Stylings"
+import Routing from "./Components/Routing/Routing"
+import Home from "./Components/Home"
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+const App = () => {
+  const person = {
+    name: 'Sara',
+    age: 25,
+    gender: 'female'    
 }
 
-export default App;
+  return (
+    <div className="App">
+      <Header />
+      {/* <Home /> */}
+      <Routing />
+      {/* <ClassComp title="ReactJs" personDetails={person} /> */}
+      {/* <CounterComp /> */}
+      {/* <Stylings />  */}
+    </div>
+  )
+}
+
+export default App
