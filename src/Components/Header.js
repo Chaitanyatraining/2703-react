@@ -28,6 +28,9 @@ const Header = (props) => {
                                 <Link to="/pagination" className="nav-link" href="#">Pagination</Link>
                             </li>
                             <li className="nav-item">
+                                <Link to="/usestatecounter" className="nav-link" href="#">usestatecounter</Link>
+                            </li>
+                            <li className="nav-item">
                                 <Link to="/contactus" className="nav-link">ContactUs</Link>
                             </li>
                             <li className="nav-item">
