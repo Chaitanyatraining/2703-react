@@ -7,6 +7,8 @@ import ContactUs from '../ContactUs'
 import UsersList from '../UsersList'
 import Pagination from '../Pagination'
 import CounterUseState from '../CounterUseState'
+import UseEffectPagination from '../UseEffectPagination'
+import CompA from '../UseContextHook/CompA'
 
 const Routing = () => {
   return (
@@ -17,6 +19,8 @@ const Routing = () => {
         <Route path='/lifecycle' element={<UsersList />} />
         <Route path='/pagination' element={<Pagination />} />
         <Route path='/usestatecounter' element={<CounterUseState />} />
+        <Route path='/useeffectpagination' element={<UseEffectPagination />} />
+        <Route path='/usecontexthook' element={<CompA />} />
         <Route path='/contactus' element={<ContactUs />} />
     </Routes>
   )

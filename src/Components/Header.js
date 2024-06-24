@@ -31,6 +31,12 @@ const Header = (props) => {
                                 <Link to="/usestatecounter" className="nav-link" href="#">usestatecounter</Link>
                             </li>
                             <li className="nav-item">
+                                <Link to="/useeffectpagination" className="nav-link" href="#">useeffectpagination</Link>
+                            </li>
+                            <li className="nav-item">
+                                <Link to="/usecontexthook" className="nav-link" href="#">usecontexthook</Link>
+                            </li>
+                            <li className="nav-item">
                                 <Link to="/contactus" className="nav-link">ContactUs</Link>
                             </li>
                             <li className="nav-item">
